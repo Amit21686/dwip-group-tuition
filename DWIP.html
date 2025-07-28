@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DWIP GROUP TUITION – Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(135deg, #f8fafc 0%, #e4eeff 100%);
+            font-family: 'Roboto', Arial, sans-serif;
+            min-height: 100vh;
+            color: #212a40;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 18px rgba(39, 72, 125, 0.08);
+            max-width: 410px;
+            padding: 36px 18px 28px 18px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .brand-line {
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: #1551b9;
+            font-size: 2em;
+            letter-spacing: 1.5px;
+            font-weight: bold;
+            border-bottom: 2.5px solid #ffc300;
+            display: inline-block;
+            margin-bottom: 14px;
+        }
+        .greeting {
+            margin-top: 18px;
+            margin-bottom: 18px;
+            font-size: 1.15em;
+            color: #324267;
+        }
+        .features {
+            padding-left: 0;
+            margin: 18px 0 24px 0;
+            font-size: 1em;
+        }
+        .features li {
+            margin: 10px 0;
+            text-align: left;
+            color: #405185;
+            list-style: disc inside;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 10px;
+        }
+        .action-btn {
+            padding: 13px 28px;
+            font-size: 1em;
+            border: none;
+            border-radius: 22px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            cursor: pointer;
+            color: #fff;
+            font-weight: 600;
+            box-shadow: 0 2px 12px rgba(55,117,255,0.10);
+            transition: transform 0.08s, box-shadow 0.16s, background 0.27s;
+        }
+        .action-btn.call {
+            background: linear-gradient(90deg, #2772c9 55%, #43b7ff 100%);
+        }
+        .action-btn.whatsapp {
+            background: linear-gradient(90deg, #25d366 60%, #128c7e 100%);
+        }
+        .action-btn:hover {
+            transform: translateY(-1px) scale(1.025);
+            box-shadow: 0 5px 18px rgba(44,62,80,0.10);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 18px 4px 16px 4px;
+            }
+            .brand-line {
+                font-size: 1.25em;
+            }
+            .features li {
+                font-size: 0.97em;
+            }
+            .action-btn {
+                font-size: 0.98em;
+                padding: 12px 8px;
+            }
+            .buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="brand-line">DWIP GROUP TUITION</div>
+        <div class="greeting">
+            Welcome students! We focus on genuine learning and individual progress in a comfortable environment.
+        </div>
+        <ul class="features">
+            <li>Regular classes and timely syllabus completion</li>
+            <li>Simple, clear explanation of all concepts</li>
+            <li>Guidance for homework and assignments</li>
+            <li>Supportive atmosphere for every student</li>
+            <li>Basic tests and feedback to help you improve</li>
+        </ul>
+        <div class="buttons">
+            <a href="tel:7990345370"><button class="action-btn call">Call Us</button></a>
+            <a href="https://wa.me/917990345370" target="_blank" rel="noopener">
+                <button class="action-btn whatsapp">WhatsApp Chat</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
